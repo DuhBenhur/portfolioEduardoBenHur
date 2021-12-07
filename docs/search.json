@@ -6,14 +6,14 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-12-07T18:56:05-03:00"
+      "last_modified": "2021-12-07T19:00:57-03:00"
     },
     {
       "path": "index.html",
       "title": "Portfolio Eduardo Ben-Hur",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-12-07T18:56:09-03:00"
+      "last_modified": "2021-12-07T19:01:06-03:00"
     }
   ],
   "collections": ["posts/posts.json"]
