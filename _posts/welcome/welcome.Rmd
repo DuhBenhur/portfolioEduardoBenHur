@@ -1,10 +1,10 @@
 ---
-title: "Portfolio do Eduardo Ben-Hur"
+title: "Welcome to Portfolio Eduardo Ben-Hur"
 description: |
-  Seja bem vindo ao meu blog, Portfolio Eduardo Ben-Hur. We hope you enjoy 
+  Welcome to our new blog, Portfolio Eduardo Ben-Hur. We hope you enjoy 
   reading what we have to say!
 author:
-  - name: Eduardo Ben-Hur 
+  - name: Nora Jones 
     url: https://example.com/norajones
     affiliation: Spacely Sprockets
     affiliation_url: https://example.com/spacelysprokets
