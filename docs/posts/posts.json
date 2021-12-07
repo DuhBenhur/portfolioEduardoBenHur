@@ -15,5 +15,22 @@
     "preview": {},
     "last_modified": "2021-12-07T19:00:54-03:00",
     "input_file": {}
+  },
+  {
+    "path": "posts/2021-12-07-anlise-da-base-rais/",
+    "title": "Análise da base Rais",
+    "description": "Essa análise teve como objetivo analisar os salários na base da Rais.\nEsse projeto foi realizado na semana de Data Sicence na Prática da Curso - R.",
+    "author": [
+      {
+        "name": "Eduardo Ben-Hur de Queiroz Gomes",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-12-07",
+    "categories": [],
+    "contents": "\r\nEsse é o meu primeiro projeto no portfólio. Miga Mari, veja as aulas quando puder, vc vai curtir :-D\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-12-07T20:37:16-03:00",
+    "input_file": "anlise-da-base-rais.knit.md"
   }
 ]

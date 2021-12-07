@@ -1,0 +1,23 @@
+---
+title: "Análise da base Rais"
+description: |
+  Essa análise teve como objetivo analisar os salários na base da Rais.
+  Esse projeto foi realizado na semana de Data Sicence na Prática da Curso - R.
+author:
+  - name: Eduardo Ben-Hur de Queiroz Gomes
+    url: https://example.com/norajones
+date: 2021-12-07
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Esse é o meu primeiro projeto no portfólio.
+Miga Mari, veja as aulas quando puder, vc vai curtir :-D
+
+
