@@ -1,0 +1,12 @@
+name: "."
+title: "Portfolio Eduardo Ben-Hur"
+description: |
+  Portfolio Eduardo Ben-Hur
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
