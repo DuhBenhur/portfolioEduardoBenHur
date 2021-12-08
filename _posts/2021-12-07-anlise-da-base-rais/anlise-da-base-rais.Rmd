@@ -60,4 +60,4 @@ plot(mtcars$mpg, mtcars$hp)
 
 ## Código em Linha
 
-Hoje é o dia `r sys.date()`.
+Hoje é o dia `r Sys.Date()`.
