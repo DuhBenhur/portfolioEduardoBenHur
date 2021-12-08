@@ -2,10 +2,9 @@
 title: "Análise da base Rais"
 description: |
   Essa análise teve como objetivo analisar os salários na base da Rais.
-  Esse projeto foi realizado na semana de Data Sicence na Prática da Curso - R.
+  Esse projeto foi realizado na semana de Data Sicence na Prática da Curso-R.
 author:
   - name: Eduardo Ben-Hur de Queiroz Gomes
-    url: https://example.com/norajones
 date: 2021-12-07
 output:
   distill::distill_article:

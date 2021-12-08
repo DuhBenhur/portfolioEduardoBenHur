@@ -1,4 +1,4 @@
-setwd("C:/Users/Gauge/Documents/")
+
 #Criar projeto do portfolio
 usethis::create_package("portfolioEduardoBenHur")
 
@@ -28,3 +28,8 @@ file.create(".nojekyll")
 
 #Criar o Blog
 distill::create_blog(".", "Portfolio Eduardo Ben-Hur", gh_pages = TRUE)
+
+
+distill::create_post("Análise da base Rais")
+
+distill::create_post("Análise da base Rais Real")
