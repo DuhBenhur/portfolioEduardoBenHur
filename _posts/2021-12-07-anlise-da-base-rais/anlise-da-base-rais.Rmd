@@ -12,12 +12,52 @@ output:
     self_contained: false
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
 Esse é o meu primeiro projeto no portfólio.
-Miga Mari, veja as aulas quando puder, vc vai curtir :-D
 
+Formatar um texto como código: `usethis:use_git()`
 
+Como colocar um link? [Linkedin](<https://www.linkedin.com/in/eduardobenhur/>)
+
+## Dicas de carreira
+
+![](images/Come%C3%A7ar_programar.PNG)
+
+1. Primeiro Item
+1. Segundo Item
+1. Terceiro Item
+1. Quarto Item
+1. Quinto Item
+
+## Código em R
+
+```{r echo=TRUE}
+# Aqui a gente coloca o código em R
+
+1 + 1
+
+```
+
+Criamos um campo de código!
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+library(tidyverse)
+```
+
+Tabela
+```{r}
+knitr::kable(mtcars)
+```
+
+Imagem/grafico:
+
+```{r, out.width="90%", fig.align='center', dpi=300,fig.cap="Grafico da base mtcars", layout="l-body-outset"}
+plot(mtcars$mpg, mtcars$hp)
+```
+
+## Código em Linha
+
+Hoje é o dia `r sys.date()`.
