@@ -17,6 +17,23 @@
     "input_file": "teste-criao-de-post.knit.md"
   },
   {
+    "path": "posts/2021-12-08-mais-um-post-de-teste-para-o-blog/",
+    "title": "Mais um post de teste para o blog",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Eduardo Ben-Hur de Queiroz Gomes",
+        "url": {}
+      }
+    ],
+    "date": "2021-12-08",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-12-08T20:28:09-03:00",
+    "input_file": "mais-um-post-de-teste-para-o-blog.knit.md"
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to Portfolio Eduardo Ben-Hur",
     "description": "Welcome to our new blog, Portfolio Eduardo Ben-Hur. We hope you enjoy \nreading what we have to say!",
