@@ -44,7 +44,7 @@ tabela_normal <- read.csv("https://raw.githubusercontent.com/curso-r/main-r4ds-1
 head(tabela_normal, 5)
 
 # Como eu faço se uso um sgbd
-
+bigrquery::bq_auth("eduardo.gomes@gauge.com.br")
 conexao <- dbConnect(
   bigquery(),
   project = "basedosdados",
@@ -57,7 +57,7 @@ tbl(conexao,"microdados_vinculos")
 primeiras_cinco_linhas <- collect(head(select(tbl(conexao, "microdados_vinculos"),
        everything()),5))
 
-primeiras_cinco_linhas
+knitr::kable(primeiras_cinco_linhas)
 
 ```
 
