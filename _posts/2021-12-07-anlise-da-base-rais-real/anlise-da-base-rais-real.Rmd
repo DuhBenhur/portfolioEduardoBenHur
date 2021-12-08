@@ -1,0 +1,66 @@
+---
+title: "Analisando dados da RAIS"
+description: |
+  A short description of the post.
+author:
+  - name: Nora Jones
+    url: https://example.com/norajones
+date: 2021-12-07
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Nesse relatório estaos interessados em responder a 
+pergunta:
+
+"Quanto ganha um cientista de dados?"
+
+Para isso, vamos utilizar a base da Raiz anonimizadas
+
+# Acessando os dados da Rais
+
+Vamos utilizar o [datalake da iniciatica base dos dados](https://basedosdados.org).
+
+
+
+
+```{r message=FALSE, warning=FALSE}
+library(bigrquery)
+library(dplyr)
+```
+
+Abaixo está o código que carrega as primeiras 5 linhas da tabela de microdados.
+```{r}
+#Como eu faria se fosse ler de um arquivo
+
+tabela_normal <- read.csv("https://raw.githubusercontent.com/curso-r/main-r4ds-1/master/dados/imdb.csv")
+
+head(tabela_normal, 5)
+
+# Como eu faço se uso um sgbd
+
+conexao <- dbConnect(
+  bigquery(),
+  project = "basedosdados",
+  dataset = "br_me_rais",
+  billing = "semanadscursor2021"
+)
+
+tbl(conexao,"microdados_vinculos")
+
+primeiras_cinco_linhas <- collect(head(select(tbl(conexao, "microdados_vinculos"),
+       everything()),5))
+
+primeiras_cinco_linhas
+
+```
+
+
+
+

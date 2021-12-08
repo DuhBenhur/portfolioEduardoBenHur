@@ -32,5 +32,22 @@
     "preview": "posts/2021-12-07-anlise-da-base-rais/anlise-da-base-rais_files/figure-html5/unnamed-chunk-4-1.png",
     "last_modified": "2021-12-07T21:44:06-03:00",
     "input_file": "anlise-da-base-rais.knit.md"
+  },
+  {
+    "path": "posts/2021-12-07-anlise-da-base-rais-real/",
+    "title": "Analisando dados da RAIS",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-12-07",
+    "categories": [],
+    "contents": "\r\nNesse relatório estaos interessados em responder a pergunta:\r\n“Quanto ganha um cientista de dados?”\r\nPara isso, vamos utilizar a base da Raiz anonimizadas\r\nAcessando os dados da Rais\r\nVamos utilizar o datalake da iniciatica base dos dados.\r\n\r\n\r\n\r\nAbaixo está o código que carrega as primeiras 5 linhas da tabela de microdados.\r\n\r\n                                      titulo  ano           diretor\r\n1                                   AvatarÂ  2009     James Cameron\r\n2 Pirates of the Caribbean: At World's EndÂ  2007    Gore Verbinski\r\n3                    The Dark Knight RisesÂ  2012 Christopher Nolan\r\n4                              John CarterÂ  2012    Andrew Stanton\r\n5                             Spider-Man 3Â  2007         Sam Raimi\r\n  duracao   cor                         generos pais\r\n1     178 Color Action|Adventure|Fantasy|Sci-Fi  USA\r\n2     169 Color        Action|Adventure|Fantasy  USA\r\n3     164 Color                 Action|Thriller  USA\r\n4     132 Color         Action|Adventure|Sci-Fi  USA\r\n5     156 Color        Action|Adventure|Romance  USA\r\n        classificacao orcamento   receita nota_imdb likes_facebook\r\n1 A partir de 13 anos 237000000 760505847       7.9          33000\r\n2 A partir de 13 anos 300000000 309404152       7.1              0\r\n3 A partir de 13 anos 250000000 448130642       8.5         164000\r\n4 A partir de 13 anos 263700000  73058679       6.6          24000\r\n5 A partir de 13 anos 258000000 336530303       6.2              0\r\n        ator_1           ator_2               ator_3\r\n1  CCH Pounder Joel David Moore            Wes Studi\r\n2  Johnny Depp    Orlando Bloom       Jack Davenport\r\n3    Tom Hardy   Christian Bale Joseph Gordon-Levitt\r\n4 Daryl Sabara  Samantha Morton         Polly Walker\r\n5 J.K. Simmons     James Franco        Kirsten Dunst\r\n# Source:   table<microdados_vinculos> [?? x 66]\r\n# Database: BigQueryConnection\r\n# ... with 66 variables: ano <int64>, sigla_uf <chr>,\r\n#   id_municipio <chr>, tipo_vinculo <chr>,\r\n#   vinculo_ativo_3112 <int64>, tipo_admissao <chr>,\r\n#   mes_admissao <int64>, mes_desligamento <int64>,\r\n#   motivo_desligamento <chr>, causa_desligamento_1 <chr>,\r\n#   causa_desligamento_2 <chr>, causa_desligamento_3 <chr>,\r\n#   faixa_tempo_emprego <chr>, tempo_emprego <dbl>, ...\r\n# A tibble: 5 x 66\r\n    ano sigla_uf id_municipio tipo_vinculo vinculo_ativo_3112\r\n  <int> <chr>    <chr>        <chr>                     <int>\r\n1  1985 AC       1200054      1                             1\r\n2  1985 AC       1200054      1                             1\r\n3  1985 AC       1200054      1                             1\r\n4  1985 AC       1200054      1                             1\r\n5  1985 AC       1200054      1                             1\r\n# ... with 61 more variables: tipo_admissao <chr>,\r\n#   mes_admissao <int>, mes_desligamento <int>,\r\n#   motivo_desligamento <chr>, causa_desligamento_1 <chr>,\r\n#   causa_desligamento_2 <chr>, causa_desligamento_3 <chr>,\r\n#   faixa_tempo_emprego <chr>, tempo_emprego <dbl>,\r\n#   faixa_horas_contratadas <chr>,\r\n#   quantidade_horas_contratadas <int>, ...\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-12-07T22:43:19-03:00",
+    "input_file": "anlise-da-base-rais-real.knit.md"
   }
 ]
