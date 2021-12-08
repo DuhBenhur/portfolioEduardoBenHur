@@ -2,7 +2,7 @@ name: "."
 title: "Portfolio Eduardo Ben-Hur"
 description: |
   Portfolio Eduardo Ben-Hur
-output_dir: "/docs"
+output_dir: "docs"
 navbar:
   right:
     - text: "Home"
