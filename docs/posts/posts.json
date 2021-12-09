@@ -34,6 +34,23 @@
     "input_file": "mais-um-post-de-teste-para-o-blog.knit.md"
   },
   {
+    "path": "posts/2021-12-08-faverismo-extremo/",
+    "title": "Faverismo Extremo!!!!!!!!!!!!!",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": {}
+      }
+    ],
+    "date": "2021-12-08",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-12-08T21:02:27-03:00",
+    "input_file": "faverismo-extremo.knit.md"
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to Portfolio Eduardo Ben-Hur",
     "description": "Welcome to our new blog, Portfolio Eduardo Ben-Hur. We hope you enjoy \nreading what we have to say!",
